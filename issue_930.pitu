@@ -1,0 +1,12 @@
+var vetor = ['a', 'b', 'v', 'a']
+var verificados = []
+var duplicado = falso
+
+para cada n em vetor:
+    se verificados.inclui(n):
+        duplicado = verdadeiro
+        sustar
+    senao:
+        verificados.adicionar(n)
+
+imprima('Duplicado = ${duplicado}')
